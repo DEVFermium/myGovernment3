@@ -2,6 +2,7 @@
 <html>
     <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
     <meta name="mobile-web-app-capable" content="yes"> <link rel="manifest" href="/manifest.json">
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script>
          if (document.documentElement.requestFullscreen) {
             document.documentElement.requestFullscreen();
@@ -21,106 +22,9 @@
         }, 1000);
     </script>
     <style>
-        @font-face { font-family: 'NanumGothic';src: url('/fonts/NanumGothic.eot');src: url('/fonts/NanumGothic.eot') format('embedded-opentype'),url('/fonts/NanumGothic.woff') format('woff');}
-        @font-face {
-    font-family: 'Pretendard';
-    font-weight: 100;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Thin.ttf') format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Pretendard';
-    font-weight: 200;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraLight.ttf') format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Pretendard';
-    font-weight: 300;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Light.ttf') format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Pretendard';
-    font-weight: 400;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Regular.ttf') format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Pretendard';
-    font-weight: 500;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.ttf') format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Pretendard';
-    font-weight: 600;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.ttf') format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Pretendard';
-    font-weight: 700;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Bold.ttf') format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Pretendard';
-    font-weight: 800;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-ExtraBold.ttf') format("truetype");
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Pretendard';
-    font-weight: 900;
-    font-style: normal;
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.eot');
-    src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.woff') format('woff'),
-        url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Black.ttf') format("truetype");
-    font-display: swap;
-}
+       body {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
 
         @-webkit-keyframes moveleft {
         0% {
@@ -174,7 +78,6 @@
             left: 13vw;
             top: 8.2vh;
             color: rgb(68, 71, 80);
-            font-family: 'Pretendard';
         }
         canvas#captureNo {
             position: fixed;
@@ -273,7 +176,6 @@
             left: 10vw;
             font-weight: bolder;
             font-size: 5.8vw;
-            font-family: 'Pretendard';
         }
         p#username2 {
             position: fixed;
@@ -283,11 +185,9 @@
             left: 15vw;
             font-weight: bolder;
             font-size: 5.8vw;
-            font-family: 'Pretendard';
         }
         p#local {
             position: fixed;
-            font-family: 'Pretendard';
             top: 58vh;
             z-index: 10;
             left: 10vw;
@@ -297,7 +197,6 @@
         }
         p#local2 {
             position: fixed;
-            font-family: 'Pretendard';
             top: 61vh;
             z-index: 10;
             left: 15vw;
@@ -307,7 +206,6 @@
         }
         p#sign {
             position: fixed;
-            font-family: 'Pretendard';
             top: 75.5vh;
             z-index: 10;
             text-align: center;
@@ -318,7 +216,6 @@
         }
         p#day {
             position: fixed;
-            font-family: 'Pretendard';
             top: 72vh;
             z-index: 10;
             left: 0vw;
@@ -356,7 +253,6 @@
             position: fixed;
             z-index: 13;
             color: rgb(101, 164, 226);
-            font-family: 'Pretendard';
             bottom: 26.85vh;
             left: 12.5vw;
             width: 30vw;
@@ -367,7 +263,6 @@
             position: fixed;
             z-index: 13;
             color: rgb(101, 164, 226);
-            font-family: 'Pretendard';
             bottom: 26.85vh;
             left: 80vw;
             width: 30vw;
@@ -378,7 +273,6 @@
             position: fixed;
             z-index: 13;
             color: rgb(149,149,149);
-            font-family: 'Pretendard';
             bottom: 23vh;
             left: 0vw;
             width: 100vw;
@@ -416,7 +310,6 @@
             position: fixed;
             z-index: 150;
             color: rgba(0, 0, 0, 0.722);
-            font-family: 'Pretendard';
             bottom: 10vh;
             left: 44.5vw;
             width: 30vw;
